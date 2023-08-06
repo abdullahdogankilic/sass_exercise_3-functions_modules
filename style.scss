@@ -1,0 +1,6 @@
+@function rem($rem) {
+  @return calc($rem * 16);
+}
+h1 {
+  font-size: rem(4);
+}
